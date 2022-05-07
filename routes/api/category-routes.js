@@ -34,8 +34,8 @@ router.get('/:id', (req, res) => {
         where: {
             id: req.params.id
         },
-        attributes: [
-        ],
+        // attributes: [
+        // ],
         include: [
             {
                 model: Product,
