@@ -7,16 +7,16 @@ router.get('/', (req, res) => {
     // find all tags
     // be sure to include its associated Product data
     Tag.findAll({
-        attributes: ['id', 'tag_name'],
+        //attributes: ['id', 'tag_name'],
         include: [
             {
                 model: Product,
                 attributes: ['product_name', 'price', 'stock', 'category_id']
             },
-            {
-                model: ProductTag,
-                attributes: ['product_id', 'tag_id']
-            }
+            // {
+            //     model: ProductTag,
+            //     attributes: ['product_id', 'tag_id']
+            // }
         ]
     })
         .then(dbTagData => res.json(dbTagData))
@@ -38,10 +38,10 @@ router.get('/:id', (req, res) => {
                 model: Product,
                 attributes: ['product_name', 'price', 'stock', 'category_id']
             },
-            {
-                model: ProductTag,
-                attributes: ['product_id', 'tag_id']
-            }
+            // {
+            //     model: ProductTag,
+            //     attributes: ['product_id', 'tag_id']
+            // }
         ]
     })
         .then(dbTagData => {
