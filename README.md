@@ -8,24 +8,26 @@
 ![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
 ![Technologies](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)
-![Technologies](https://img.shields.io/badge/-Inquirer-000000?logo=&logoColor=white)
-
+![Technologies](https://img.shields.io/badge/-Sequelize-52B0E7?logo=Sequelize&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Express-000000?logo=&logoColor=white)
+![Technologies](https://img.shields.io/badge/-dotenv-000000?logo=&logoColor=white)
 
 ## Description
-: 
+Developing and building the back end for an e-commerce site. The application will use an Express.js API and configured to use Sequelize to interact with the MySQL database. The application will be ran using the command line below: 
 ```
+node start
 ```
 ## Installation
 ***Requirments***
 
-[Node.js](https://nodejs.org/en/) | [MySQL](https://www.npmjs.com/package/mysql2)
+[Node.js](https://nodejs.org/en/) | [MySQL](https://www.npmjs.com/package/mysql2) | [Sequelize](https://www.npmjs.com/package/sequelize) | [dotenv](https://www.npmjs.com/package/dotenv) | [Express](https://www.npmjs.com/package/express)
 
 ***Once Installed:***
 1. Clone the Repository on to your machine.
 2. Open the terminal and ensure you are in the right file path.
 3. Run the command ```npm install``` to download the packages.
-4. Then run the command ```node index.js``` to run the software.
-5. The command prompt will begin on your terminal
+4. Then run the command ```node start``` to run the software.
+5. The application will then begin to run locally.
 
 ## User Story
 ```
@@ -50,7 +52,8 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Screenshot
-![]()
+The image below displays the database using the software Insomnia. In this case, we are using, 'GET', to recieve information from the database.
+![Insomnia](./assets/images/Insomnia.png)
 
 ## Video
 A link to the [Video]():
