@@ -26,8 +26,10 @@ node start
 1. Clone the Repository on to your machine.
 2. Open the terminal and ensure you are in the right file path.
 3. Run the command ```npm install``` to download the packages.
-4. Then run the command ```node start``` to run the software.
-5. The application will then begin to run locally.
+4. Log into my sequel and run the command ```source db/schema.sql``` to create the database.
+5. Run the command ```npm run seed``` to seed the database.
+6. Then run the command ```node start``` to run the software.
+7. The application will then begin to run locally.
 
 ## User Story
 ```
@@ -56,8 +58,14 @@ The image below displays the database using the software Insomnia. In this case,
 ![Insomnia](./assets/images/Insomnia.png)
 
 ## Video
-A link to the [Video]():
+A link to the [Video Part 1](https://watch.screencastify.com/v/eB2igGHhc6KG4C9z3QdT). The video demonstrates on how to run the schema, seed the database, as well as start the server:
 ```
+https://watch.screencastify.com/v/eB2igGHhc6KG4C9z3QdT
+```
+
+A link to the [Video Part 2](https://watch.screencastify.com/v/CeIjkqOH2JsQzYoTtQTo). The video demonstrates the POST, PUT, DELETE, and GET routes using the application, Insomnia.
+```
+https://watch.screencastify.com/v/CeIjkqOH2JsQzYoTtQTo
 ```
 
 ## Link
